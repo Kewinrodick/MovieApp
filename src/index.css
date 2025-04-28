@@ -3,6 +3,11 @@
 
 @import "tailwindcss";
 
+body,html{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 @theme {
   --color-primary: #030014;
 
